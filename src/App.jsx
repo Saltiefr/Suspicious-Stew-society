@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
 import Stats from "./components/Stats";
