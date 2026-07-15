@@ -63,7 +63,7 @@ export default function Navbar() {
           {/* Brand */}
           <a href="#" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
             style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none', flexShrink: 0 }}>
-            <FireSkullLogo size={30} />
+            <FireSkullLogo size={40} />
             <span className="font-display" style={{
               fontSize: '1rem', fontWeight: 800,
               color: 'var(--cream)', letterSpacing: '0.06em',

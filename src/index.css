@@ -115,6 +115,10 @@ body {
   0%, 100% { transform: scaleY(1) skewX(1deg); opacity: 0.85; }
   50%       { transform: scaleY(1.12) skewX(-2deg); opacity: 0.65; }
 }
+@keyframes flicker3 {
+  0%, 100% { transform: scaleY(1) skewX(-1deg); opacity: 0.95; }
+  50%       { transform: scaleY(1.15) skewX(2deg); opacity: 0.7; }
+}
 
 @keyframes emberRise {
   0%   { transform: translate(0, 0) scale(1);   opacity: 0; }
