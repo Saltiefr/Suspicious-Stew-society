@@ -8,6 +8,8 @@ import Features from "./components/Features";
 import Shop from "./components/Shop";
 import HowToJoin from "./components/HowToJoin";
 import Footer from "./components/Footer";
+import AnimatedCursor from "./components/AnimatedCursor";
+
 
 export default function App() {
   return (
@@ -20,6 +22,7 @@ export default function App() {
       <Shop />
       <HowToJoin />
       <Footer />
+      <AnimatedCursor />
     </div>
   );
 }

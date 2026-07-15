@@ -154,3 +154,12 @@ body {
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+/* ── Custom cursor ── */
+@media (hover: hover) and (pointer: fine) {
+  html, body, a, button, [role="button"] {
+    cursor: none !important;
+  }
+  input, textarea {
+    cursor: text !important;
+  }
+}
