@@ -1,5 +1,6 @@
 import React from "react";
 import { SERVER_IP, DISCORD_URL } from "../config";
+import FireSkullLogo from "./FireSkullLogo";
 
 const LINKS = [
   { label: 'Features',    href: '#features' },
@@ -31,7 +32,7 @@ export default function Footer() {
           {/* Brand */}
           <div style={{ maxWidth: '300px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
-              <span style={{ fontSize: '1.7rem' }}>🍲</span>
+              <FireSkullLogo size={36} />
               <span className="font-display" style={{
                 fontSize: '0.95rem', fontWeight: 800,
                 color: 'var(--cream)', letterSpacing: '0.05em',

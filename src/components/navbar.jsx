@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Copy, Check, MessageCircle } from "lucide-react";
 import { SERVER_IP, DISCORD_URL } from "../config";
+import FireSkullLogo from "./FireSkullLogo";
 
 const NAV_LINKS = [
   { label: 'Features',    href: '#features' },
@@ -62,11 +63,7 @@ export default function Navbar() {
           {/* Brand */}
           <a href="#" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
             style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none', flexShrink: 0 }}>
-            <span style={{
-              fontSize: '1.5rem', display: 'inline-block',
-              animation: 'wiggle 3.5s ease-in-out infinite',
-              transformOrigin: '55% 85%',
-            }}>🍲</span>
+            <FireSkullLogo size={30} />
             <span className="font-display" style={{
               fontSize: '1rem', fontWeight: 800,
               color: 'var(--cream)', letterSpacing: '0.06em',
