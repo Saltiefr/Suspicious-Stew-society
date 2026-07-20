@@ -134,7 +134,7 @@ export default function QuitHero() {
       <div className="iq-note">
         <span className="iq-tape iq-tape-left" />
         <span className="iq-tape iq-tape-right" />
-        <h1>I dont wanna have my work,<br />where it isnt valued.</h1>
+        <h1>Just fuck off faggots yall should just kill yourselves fucking cunts,<br />absolute retards .</h1>
       </div>
 
       <div className="iq-signoff">
