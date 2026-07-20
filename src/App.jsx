@@ -1,26 +1,15 @@
 import React from "react";
 import "./index.css";
 import Navbar from "./components/navbar";
-import Hero from "./components/Hero";
-import Marquee from "./components/Marquee";
-import Stats from "./components/Stats";
-import Features from "./components/Features";
-import Shop from "./components/Shop";
-import HowToJoin from "./components/HowToJoin";
+import QuitHero from "./components/QuitHero";
 import Footer from "./components/Footer";
 import AnimatedCursor from "./components/AnimatedCursor";
-
 
 export default function App() {
   return (
     <div style={{ background: 'var(--bg)', minHeight: '100vh', overflowX: 'hidden', position: 'relative' }}>
       <Navbar />
-      <Hero />
-      <Marquee />
-      <Stats />
-      <Features />
-      <Shop />
-      <HowToJoin />
+      <QuitHero />
       <Footer />
       <AnimatedCursor />
     </div>
